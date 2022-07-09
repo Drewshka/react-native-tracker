@@ -1,5 +1,6 @@
 import { NavigationActions } from "react-navigation";
-let navigation;
+
+let navigator;
 
 //* trigger navigation from an action function
 
