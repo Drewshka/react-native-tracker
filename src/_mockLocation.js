@@ -11,11 +11,12 @@ const getLocation = increment => {
             accuracy: 5,
             altitudeAccuracy: 5,
             altitude: 5,
-            latitude: 43.927550 + increment * tenMetersWithDegrees,
-            longtitude: -80.079320 + increment * tenMetersWithDegrees
+            longitude: -80.079320 + increment * tenMetersWithDegrees,
+            latitude: 43.927550 + increment * tenMetersWithDegrees
         }
     }
 };
+
 
 let counter = 0;
 setInterval(() => {
